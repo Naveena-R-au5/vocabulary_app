@@ -1,1 +1,1 @@
-vocabulary app in progress..
+vocabulary app using MERN Stack
