@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap'); 
+
+.text{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.link{
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.links{
+    display: none;
+}
+
+.auto{
+    width:40% !important;
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    width:100% !important;
+}
+.search{
+    width:20%;
+}
+.box{
+    color:white !important;
+    border-color: white !important;
+}
+.label{
+    color:white !important;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .search{
+        width:20% !important;
+        /* float:right !important; */
+        margin-right: 30px !important;
+    }
+    .clas{
+        margin-right: 30px;
+    }
+    .in{
+        width:250%;
+        border-radius: 10px;
+        padding:5px;
+    }
+    .main{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    /* .text{
+        margin-left: 460px !important;
+    } */
+    .link{
+        color:white;
+        text-decoration: none;
+        margin-left: 0px;
+    }
+    .links{
+        display: initial;
+        color:white;
+        text-decoration: none;
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+}
